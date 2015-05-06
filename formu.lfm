@@ -1,0 +1,34 @@
+object Form1: TForm1
+  Left = 434
+  Height = 338
+  Top = 321
+  Width = 639
+  Caption = 'Async Demo'
+  ClientHeight = 338
+  ClientWidth = 639
+  LCLVersion = '1.4.0.4'
+  object Button1: TButton
+    Left = 320
+    Height = 25
+    Top = 303
+    Width = 75
+    Caption = 'Start Tasks'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Image1: TImage
+    Left = 32
+    Height = 216
+    Top = 32
+    Width = 256
+  end
+  object Memo1: TMemo
+    Left = 320
+    Height = 248
+    Top = 32
+    Width = 296
+    Font.Height = -16
+    ParentFont = False
+    TabOrder = 1
+  end
+end
